@@ -1,0 +1,140 @@
+# --------------------------------------
+# Python + Django Standard Ignores
+# --------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+*.manifest
+*.spec
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+*.mo
+*.pot
+
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+instance/
+.webassets-cache
+
+.scrapy
+
+docs/_build/
+
+.pybuilder/
+target/
+
+.ipynb_checkpoints
+
+profile_default/
+ipython_config.py
+
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+__pypackages__/
+
+celerybeat-schedule
+celerybeat.pid
+
+*.sage.py
+
+.env
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+.spyderproject
+.spyproject
+.ropeproject
+
+/site
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+.pyre/
+.pytype/
+
+cython_debug/
+
+.ruff_cache/
+
+.pypirc
+
+.DS_Store
+DS_Store/
+
+# --------------------------------------
+# Project-Specific Ignores (Custom Additions)
+# --------------------------------------
+
+# Media and upload folders
+media/
+uploads/
+
+# Static files collected
+staticfiles/
+
+# Environment file
+.env
+Ti- .env
+
+# Docker-related files (ignore runtime, not config)
+*.pid
+
+# VSCode settings (optional)
+.vscode/
+
+# Misc
+check.txt
+
+# Ignore SQLite database if not using in production
+db.sqlite3
+
+# Ignore system backups or unwanted duplicates
+*~
